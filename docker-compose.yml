@@ -13,7 +13,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:5.9.3-php7.4
+    image: wordpress:6.0.3-php7.4
     volumes:
       - ./wordpress:/var/www/html
       - ./plugins:/var/www/html/wp-content/plugins
